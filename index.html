@@ -12,7 +12,7 @@
     <header>
       <h1>Portfólio Pessoal</h1>
       <nav aria-label="menu">
-        <ul>
+        <ul class="menu-link">
           <li><a href="#apresentacao">Apresentação</a></li>
           <li><a href="#stacks">Stacks</a></li>
           <li><a href="#projetos">Projetos</a></li>
@@ -47,14 +47,16 @@
           name="email"
           placeholder="Seu E-Mail para contato aqui..."
         />
-        <button id="submit-btn">Enviar</button>
+        <button id="submit-btn" type="submit">Enviar</button>
       </form>
       <p>contatos</p>
-      <ul aria-label="lista de contatos" id="contatos">
-        <li><a href="#email">E-Mail</a></li>
-        <li><a href="#linkedin">LinkedIn</a></li>
-        <li><a href="#whatsapp">WhatsApp</a></li>
-      </ul>
+      <section aria-labelledby="contatos">
+        <ul id="contatos">
+          <li><a href="#email">E-Mail</a></li>
+          <li><a href="#linkedin">LinkedIn</a></li>
+          <li><a href="#whatsapp">WhatsApp</a></li>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>
