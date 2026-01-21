@@ -11,3 +11,15 @@
   --cor-texto: #1f2937;
   --cor-primaria: #3b82f6;
 }
+
+header {
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
