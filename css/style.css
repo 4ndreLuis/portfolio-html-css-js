@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --cor-fundo: #f9fafb;
+  --cor-texto: #1f2937;
+  --cor-primaria: #3b82f6;
+}
