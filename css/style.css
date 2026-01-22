@@ -47,3 +47,17 @@ header {
 .hero h2 {
   font-size: 3rem;
 }
+
+.grid-stacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.grid-stacks > div {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+}
